@@ -1,0 +1,20 @@
+void* allocate(int blocks)
+{
+   void* a;
+   int z;
+   long b = (long)(&a);
+   for(int i = 0; i++;)
+   {
+        if(b/i == 0){
+           z = i;
+           break;
+        }
+   }
+   void* m[blocks/z];
+   return m[blocks/z];
+}
+void* deallocate(void* m) //Overwrites the address 
+{
+   m = (void*)(&m - &m);
+   return m;
+}
